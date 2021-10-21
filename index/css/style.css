@@ -1,0 +1,662 @@
+body{
+  background-image: url('../img/Estero02.jpg');
+  background-size: 1650px 1100px;
+	background-color: #0F52BA;
+  background-repeat: no-repeat;
+  
+}
+
+a:visited{
+color: black;
+
+}
+
+
+
+
+#titulo{
+  position: relative;
+  color: #FFB319;
+  text-align: center;
+  width: 300px;
+  left: 500px;
+  background-color: #2C394B;
+  border-radius: 10px;
+}
+
+#titulo:hover{
+  transform: scale(1.2);
+  transition: all 2s;
+  background-color: #38A3A5;
+}
+
+#header{
+  background-image: url('../img/newsan.jpg' ) ;
+  background-size: 1350px 350px;
+
+background-repeat: no-repeat ;
+  /*background-color: #1EAE98;*/
+  height: 250px;
+  position: relative;
+  right: 10px;
+  bottom: 15px;
+  width: 1350px;
+  margin: auto;
+}
+
+#head{
+  
+
+  /*background-color: #1EAE98;*/
+  height: 250px;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 1350px;
+  margin: auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.nav li a{
+  background-color:black;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav li a:hover {
+  background-color: #352a2a;
+}
+
+.nav > li {
+  float: left;
+  margin: 90px 5px;
+}
+
+.nav li ul {
+  display:none ;
+  position: absolute;
+  min-width: 140px;
+
+}
+
+.nav li:hover > ul{
+  display: block;
+}
+
+#mapa{
+	position: relative;
+	width: 1000px;
+
+}
+
+#cnt_mapa{
+	position: relative;
+	
+	/*background-color:#0F52BA ;*/
+	width: 1200px;
+	text-align: center;
+	left: 80px;
+}
+
+ul.mensa li{
+	position: absolute;
+	border: auto ;
+  list-style: none;
+  display: none;
+  width: 120px;
+  height: 200px;
+}
+
+div#cnt_mapa:hover ul.mensa li{
+	display: block;
+}
+
+ul.mensa li p {
+  position: absolute;
+  top: 10%;
+  left: -70%;
+  background: #FFC074;
+  margin: 10px 0 0 0;
+  padding: 0.3em;
+  width: 230px;
+}
+
+ul.mensa li p {
+  display: none;
+}
+
+
+
+/**/
+
+ul.mensa li:hover p {
+  display: block;
+
+transform: scale(1.1);
+  
+}
+
+
+
+
+
+ul.mensa li#santa_ana {
+  width: 125px; 
+  height: 210px; 
+  top: 30px; 
+  left: 280px; 
+}
+
+ul.mensa li#ahuachapan {
+  width: 130px; 
+  height: 150px; 
+  top: 160px; 
+  left: 130px;
+}
+
+ul.mensa li#sonsonate {
+  width: 100px; 
+  height: 140px; 
+  top: 240px; 
+  left: 240px;
+}
+
+ul.mensa li#libertad {
+  width: 80px; 
+  height: 200px; 
+  top: 190px; 
+  left: 375px;
+}
+
+ul.mensa li#chalatenango {
+  width: 225px; 
+  height: 135px; 
+  top: 40px; 
+  left: 440px;
+}
+
+ul.mensa li#san_salvador{
+  width: 50px; 
+  height: 200px; 
+  top: 180px; 
+  left: 470px;
+}
+
+ul.mensa li#cuscatlan{
+  width: 50px; 
+  height: 170px;
+   top: 170px; 
+   left: 540px; 
+   transform: rotate(-20deg);
+}
+
+#cuscatlan p{
+	transform: rotate(20deg);
+}
+
+ul.mensa li#la_paz{
+  width: 120px; 
+  height: 160px; 
+  top: 320px; 
+  left: 520px;
+}
+
+ul.mensa li#cabañas {
+  width: 155px; 
+  height: 90px; 
+  top: 190px; 
+  left: 600px;
+}
+
+ul.mensa li#san_vicente{
+  width: 30px; 
+  height: 200px; 
+  top: 280px; 
+  left: 660px; 
+  transform: rotate(20deg);
+}
+
+ul.mensa li#san_vicente2{
+  width: 130px; 
+  height: 70px; 
+  top: 280px; 
+  left: 620px;
+}
+
+#san_vicente p{
+	transform: rotate(-20deg);
+}
+
+ul.mensa li#usulutan{
+  width: 50px; 
+  height: 200px; 
+  top: 320px; 
+  left: 770px;
+}
+
+ul.mensa li#usulutan2{
+  width: 70px; 
+  height: 160px; 
+  top: 350px; 
+  left: 680px;
+}
+
+ul.mensa li#usulutan3{
+  width: 70px; 
+  height: 60px; 
+  top: 470px; 
+  left: 820px;
+}
+
+ul.mensa li#san_miguel{
+  width: 80px; 
+  height: 300px; 
+  top: 230px; 
+  left: 820px; 
+  transform: rotate(-25deg);
+}
+#san_miguel p{
+  transform: rotate(25deg);
+}
+
+ul.mensa li#morazan{
+  width: 90px; 
+  height: 170px; 
+  top: 190px; 
+  left: 880px; 
+  transform: rotate(-25deg);
+}
+
+#morazan p{
+  transform: rotate(25deg);
+}
+
+
+
+
+ul.mensa li#la_union{
+  width: 90px; 
+  height: 300px; 
+  top: 230px; 
+  left: 970px; 
+  transform: rotate(10deg);
+}
+
+#la_union p{
+  transform: rotate(-10deg);
+}
+
+#footer{
+  background-color: #261C2C;
+  height: 210px;
+  position: relative;
+  top: 50px;
+  right: 10px;
+  width: 1350px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+
+#redes{
+  position: relative;
+  
+  left: 43%;
+
+}
+
+#imgfooter{
+  height: 110px;
+  width: 200px;
+  position: relative;
+  left: 500px;
+  bottom: 50px;
+}
+
+#imgfooter:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+#minis:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+#minis{
+  width: 200px;
+  height: 130px;
+  position: relative;
+  top: 50px;
+  left: 300px;
+}
+
+
+/*STYLE DE DESARROLLADORES*/
+#desa .th,.td{
+  border: solid medium wheat;
+  background-color: salmon;
+  position: relative;
+  left: 350px;
+  width: 150px;
+  height: 50px;
+
+  
+}
+
+h1,h3{
+  text-align: center;
+}
+
+h3{
+  color: #000000;
+  background-color: #C2FFD9;
+}
+
+ .contenedordep{
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+margin-bottom: 0.5em;
+  background: #86BFCE;
+  border: 2px solid #000;
+  border-radius: 20px;
+  margin-top: 0.6em;
+  margin-right: 0.6em;
+  margin-left: 0.6em;
+  margin-bottom: 0.6em;
+ }
+
+ .subcontenedordep
+ {
+  margin: 0px auto;
+  padding: 40px 0 20px 0;
+  width: 90%;
+  min-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: justify;
+ }
+
+ .titulosdep
+ {
+  text-align: center;
+  font-size: 44px; 
+  text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+  -webkit-text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+  -moz-text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+  -o-text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+  -ms-text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+ }
+
+ .fotosdep
+ {
+  width: 100%;
+  height: 100%;
+  position: left;
+ }
+
+ #ahu{
+  position: absolute;
+  left: 700px;
+  top:1600px ;
+ }
+
+ #ahu:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #caba{
+  position: absolute;
+  left: 700px;
+  top:1750px ;
+  width: 500px;
+  height: 300px;
+ }
+
+ #caba:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #chala{
+  position: absolute;
+  left: 600px;
+  top:2200px ;
+  width: 600px;
+  height: 400px;
+ }
+
+ #chala:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #chala2{
+  position: absolute;
+  left: 600px;
+  top:2800px ;
+  width: 600px;
+  height: 400px;
+ }
+
+ #chala2:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #suchi{
+  position: absolute;
+  left: 600px;
+  top:1800px ;
+  width: 600px;
+  height: 400px;
+ }
+
+ #suchi:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #suchi2{
+  position: absolute;
+  left: 600px;
+  top:2600px ;
+  width: 600px;
+  height: 400px;
+ }
+
+ #suchi2:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #liber{
+  position: absolute;
+  left: 600px;
+  top:1800px ;
+  width: 600px;
+  height: 400px;
+ }
+
+ #liber:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+  #liber2{
+  position: absolute;
+  left: 600px;
+  top:2800px ;
+  width: 500px;
+  height: 300px;
+ }
+
+ #liber2:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #paz{
+  position: absolute;
+  left: 600px;
+  top:1700px ;
+  width: 500px;
+  height: 300px;
+ }
+
+ #paz:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ 
+  #mora{
+  position: absolute;
+  left: 600px;
+  top:1700px ;
+  width: 500px;
+  height: 300px;
+ }
+
+ #mora:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #migue{
+  position: absolute;
+  left: 600px;
+  top:1700px ;
+  width: 500px;
+  height: 300px;
+ }
+
+ #migue:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #capi{
+  position: absolute;
+  left: 600px;
+  top:2700px ;
+  width: 600px;
+  height: 400px;
+ }
+
+ #capi:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #pupusas{
+  position: absolute;
+  left: 600px;
+  top:4250px ;
+  width: 450px;
+  height: 250px;
+ }
+
+ #pupusas:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #sant{
+  position: absolute;
+  left: 600px;
+  top:1950px ;
+  width: 500px;
+  height: 300px;
+ }
+
+ #sant:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #vicent{
+  position: absolute;
+  left: 600px;
+  top:1900px ;
+  width: 500px;
+  height: 300px;
+ }
+
+ #vicent:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+
+#son{
+  position: absolute;
+  left: 600px;
+  top:2300px ;
+  width: 600px;
+  height: 400px;
+ }
+
+ #son:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #uni{
+  position: absolute;
+  left: 600px;
+  top:1650px ;
+  width: 500px;
+  height: 300px;
+ }
+
+ #uni:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+ #usu{
+  position: absolute;
+  left: 600px;
+  top:1800px ;
+  width: 600px;
+  height: 400px;
+ }
+
+ #usu:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+  opacity: 0.9;
+ }
+
+
+
